@@ -192,6 +192,7 @@ profiles:
       teams:
         - github-maintainers
         - hashgraph-online-standards-sdk-js-maintainers
+        - heka-identity-platform-maintainers
         - hiero-cryptography-maintainers
         - hiero-contracts-maintainers
         - hiero-consensus-specifications-maintainers
@@ -223,6 +224,7 @@ profiles:
         - hiero-website-maintainers
         - hiero-triage
         - homebrew-tools-maintainers
+        - identity-collaboration-hub-maintainers
         - roadmap-maintainers
         - security-maintainers
         - sdk-collaboration-hub-maintainers
@@ -247,6 +249,15 @@ profiles:
     allowed_voters:
       teams:
         - hashgraph-online-standards-sdk-js-maintainers
+
+  hekaIdentityPlatformMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - heka-identity-platform-maintainers
 
   hieroCryptographyMaintainers:
     duration: 2w
@@ -536,6 +547,15 @@ profiles:
     allowed_voters:
       teams:
         - homebrew-tools-maintainers
+
+  identityCollaborationHubMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - identity-collaboration-hub-maintainers
 
   roadmapMaintainers:
     duration: 2w
