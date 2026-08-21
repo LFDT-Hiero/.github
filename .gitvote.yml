@@ -356,8 +356,7 @@ profiles:
     close_on_passing: true
     allowed_voters:
       teams:
-        - hiero-did-sdk-js-maintainers
-        - hiero-did-sdk-python-maintainers
+        - hiero-did-sdk-maintainers
 
   hieroSdkRustMaintainers:
     duration: 2w
