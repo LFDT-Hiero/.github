@@ -192,6 +192,10 @@ profiles:
       teams:
         - github-maintainers
         - hashgraph-online-standards-sdk-js-maintainers
+        - heka-identity-platform-maintainers
+        - hiero-cryptography-maintainers
+        - hiero-contracts-maintainers
+        - hiero-consensus-specifications-maintainers
         - hiero-enterprise-java-maintainers
         - hiero-mirror-node-maintainers
         - hiero-local-node-maintainers
@@ -218,7 +222,9 @@ profiles:
         - hiero-identity-standards-maintainers
         - hiero-improvement-proposals-maintainers
         - hiero-website-maintainers
+        - hiero-triage
         - homebrew-tools-maintainers
+        - identity-collaboration-hub-maintainers
         - roadmap-maintainers
         - security-maintainers
         - sdk-collaboration-hub-maintainers
@@ -243,6 +249,42 @@ profiles:
     allowed_voters:
       teams:
         - hashgraph-online-standards-sdk-js-maintainers
+
+  hekaIdentityPlatformMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - heka-identity-platform-maintainers
+
+  hieroCryptographyMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hiero-cryptography-maintainers
+
+  hieroContractsMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hiero-contracts-maintainers
+
+  hieroConsensusSpecificationsMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hiero-consensus-specifications-maintainers
         
   hieroEnterpriseJavaMaintainers:
     duration: 2w
@@ -289,6 +331,15 @@ profiles:
       teams:
         - hiero-sdk-swift-maintainers
 
+  hieroDidSdkJsMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hiero-did-sdk-js-maintainers
+        
   hieroDidSdkPythonMaintainers:
     duration: 2w
     pass_threshold: 66.66
@@ -297,6 +348,15 @@ profiles:
     allowed_voters:
       teams:
         - hiero-did-sdk-python-maintainers
+
+  hieroDidSdkMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hiero-did-sdk-maintainers
 
   hieroSdkRustMaintainers:
     duration: 2w
@@ -469,6 +529,15 @@ profiles:
       teams:
         - hiero-website-maintainers
 
+  hieroTriage:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hiero-triage
+
   homebrewToolsMaintainers:
     duration: 2w
     pass_threshold: 66.66
@@ -477,6 +546,15 @@ profiles:
     allowed_voters:
       teams:
         - homebrew-tools-maintainers
+
+  identityCollaborationHubMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - identity-collaboration-hub-maintainers
 
   roadmapMaintainers:
     duration: 2w
