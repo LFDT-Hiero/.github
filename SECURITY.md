@@ -30,18 +30,24 @@ This vulnerability disclosure policy explains the rules and guidelines for Hiero
 
 ## Security Team
 
-The current Hiero security team is:
+The current Hiero security team consists of the members of the following GitHub teams:
 
-| Name                     | Email ID               | Discord ID | Area/Specialty            |
-|--------------------------|------------------------|------------|---------------------------|
-| Hart Mongomery (LFDT)    | <>                     | <>         | Temp Security Advisor     |
-| Jessica Gonzalez (LFDT)  | <>                     | <>         | Community Architect       |
-| Alex Popowycz            | <>                     | <>         | Security Advisor          |
-| Roger Barker             | <>                     | <>         | Project Maintainer        |
-| Richard Bair             | <>                     | <>         | Project Maintainer        |
-| Nathan Klick             | <>                     | <>         | Security Advisor          |
+| Team | Role |
+|------|------|
+| [@hiero-ledger/security-maintainers](https://github.com/orgs/hiero-ledger/teams/security-maintainers) | Project Maintainers responsible for receiving, triaging and remediating security reports |
+| [@hiero-ledger/lf-staff](https://github.com/orgs/hiero-ledger/teams/lf-staff) | LF Decentralized Trust staff acting as security advisors and community architects |
 
-The security team for Hiero must include at least three project Maintainers that agree to carry out the following duties and responsibilities. Members are added and removed from the team via approved Pull Requests to this repository. For additional background into the role of the security team, see the [People Infrastructure](https://lf-decentralized-trust.github.io/governance/governing-documents/SECURITY-POLICY#people-infrastructure) section of the LF Decentralized Trust Security Policy.
+The current membership of both teams is visible on the linked team pages, which are the authoritative source.
+This document intentionally does not duplicate the member list.
+
+The `security-maintainers` team must at all times include at least three project Maintainers who have agreed to carry out the duties and responsibilities described below.
+
+Members are added to and removed from these teams by <!-- TODO: TSC vote / existing security-maintainers approval / LFDT staff request -->.
+Changes to the team composition are recorded in <!-- TODO: TSC meeting minutes / this repository -->.
+
+For additional background into the role of the security team, see the
+[People Infrastructure](https://lf-decentralized-trust.github.io/governance/governing-documents/SECURITY-POLICY#people-infrastructure)
+section of the LF Decentralized Trust Security Policy.
 
 ### Responsibilities:
 
